@@ -60,19 +60,19 @@
   .search-input {
     display: block;
     margin-bottom: 0;
-    padding: 0;
-    border: none;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid #d4d8e3;
     outline: none;
     box-shadow: none;
     background-color: transparent;
-    font-size: $type-size-3;
+    font-size: $type-size-5;
 
     @include breakpoint($large) {
       font-size: $type-size-2;
     }
 
     @include breakpoint($x-large) {
-      font-size: $type-size-1;
+      font-size: $type-size-5;
     }
   }
 
@@ -84,6 +84,10 @@
       content: "";
       display: block;
     }
+  }
+
+  .results {
+    padding: 1.5em;
   }
 
   .results__found {

@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "검색"
-    url: /search/
-  - title: "카테고리"
+  # - title: "검색"
+  #   url: /search/
+  - title: "Category"
     url: /categories/
-  - title: "태그"
+  - title: "Tag"
     url : /tags/
-  - title: "연도별"
+  - title: "By-year"
     url : /year-archive/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
